@@ -14,6 +14,11 @@ Add the line below to your `build_config.rb`:
 
 Example of controlling the LCD display with ST7032 controller.
 
+### Demo movie
+[![movie](https://img.youtube.com/vi/M_mGSt0bB-4/0.jpg)](https://www.youtube.com/watch?v=M_mGSt0bB-4)
+
+### Code
+
 ```ruby
 include ESP32
 
@@ -79,8 +84,6 @@ lcd.clear
 
 i2c.deinit
 ```
-
-
 
 ## License
 
