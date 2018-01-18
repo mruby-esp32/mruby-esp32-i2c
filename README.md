@@ -85,6 +85,10 @@ lcd.clear
 i2c.deinit
 ```
 
+## Related programs
+
++ [mruby-esp32-i2c-ssd1306](https://github.com/icm7216/mruby-esp32-i2c-ssd1306) - OLED SSD1306 (I2C) library for mruby-esp32
+
 ## License
 
 Copyright (c) 2017 YAMAMOTO Masaya
