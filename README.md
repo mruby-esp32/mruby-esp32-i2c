@@ -88,6 +88,7 @@ i2c.deinit
 ## Related programs
 
 + [mruby-esp32-i2c-ssd1306](https://github.com/icm7216/mruby-esp32-i2c-ssd1306) - OLED SSD1306 (I2C) library for mruby-esp32
++ [mruby-esp32-i2c-bme280](https://github.com/icm7216/mruby-esp32-i2c-bme280) - BME280 (I2C) library for mruby-esp32
 
 ## License
 
