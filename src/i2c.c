@@ -23,6 +23,7 @@ mrb_esp32_i2c_init(mrb_state *mrb, mrb_value self)
   conf.scl_pullup_en = scl_pullup;
   conf.sda_pullup_en = sda_pullup;
   conf.master.clk_speed = freq;
+  conf.clk_flags = I2C_SCLK_SRC_FLAG_FOR_NOMAL;
 
   i2c_param_config(port, &conf);
   i2c_driver_install(port, mode, 0, 0, 0);
